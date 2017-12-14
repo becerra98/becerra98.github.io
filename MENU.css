@@ -1,0 +1,47 @@
+.menú{
+    antecedentes: # 333;
+    relleno: 0px;
+    margen: 0 0 10px 0;
+    posición: relativa;
+    ancho: 1000px;
+    altura: 70px;
+    borde: 2px # 333 sólido;
+    radio del borde: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -o-border-radius: 8px;
+    -ms-border-radius: 8px;
+    caja-sombra: 1px 2px 3px # 666;
+    -moz-box-shadow: 1px 2px 3px # 666;
+    -webkit-box-shadow: 1px 2px 3px # 666;
+    -o-box-shadow: 1px 2px 3px # 666;
+    -ms-box-shadow: 1px 2px 3px # 666;
+}
+.menu li {
+    tamaño de letra: 20px;
+    bloqueo de pantalla;
+    flotador izquierdo;
+    relleno: 10px;
+    margen: 10px
+}
+.menu li a {
+    color: transparente;
+    bloqueo de pantalla;
+    text-transform: mayúscula;
+    sombra de texto: 0px 0px 5px #fff;
+    espacio entre letras: 1px;
+    -webkit-transition: todos los 0.3s de facilidad de entrada y salida;
+    -moz-transition: todos los 0.3s de entrada-salida;
+    -o-transition: todos los 0.3s de entrada-salida;
+    -ms-transition: todas las 0.3s facilitan el ingreso;
+    transición: todos los 0.3 segundos de entrada y salida;
+}
+.menu: hover li a {
+    sombra de texto: 0px 0px 5px # c4c4c4;
+}
+.menu li a: hover {
+    color: #fff;
+    sombra de texto: 0px 0px 1px #fff;
+    relleno a la izquierda: 10px;
+    texto-decoración: ninguno;
+}
